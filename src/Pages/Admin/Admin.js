@@ -8,7 +8,7 @@ const Admin = () => {
   const photoRef = useRef();
   const [foods, setFoods] = useState();
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch("https://dreadful-coffin-02745.herokuapp.com/products")
       .then((res) => res.json())
       .then((data) => setFoods(data));
   }, []);
@@ -17,7 +17,7 @@ const Admin = () => {
     const price = priceRef.current.value;
     const photo = photoRef.current.value;
     const newOrder = { name, price, photo };
-    fetch("http://localhost:5000/newServices", {
+    fetch("https://dreadful-coffin-02745.herokuapp.com/newServices", {
       method: "post",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(newOrder),

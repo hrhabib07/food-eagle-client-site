@@ -25,6 +25,9 @@ const Header = () => {
               <Nav.Link as={Link} to="/myOrder">
                 All Orders
               </Nav.Link>
+              <Nav.Link as={Link} to="/adminLogin">
+                Admin
+              </Nav.Link>
               {user.email ? (
                 <div className="d-flex align-items-center justify-content-center">
                   <h5 className="me-2">{user.displayName}</h5>
