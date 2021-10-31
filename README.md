@@ -1,11 +1,16 @@
 
-## Installation
+## Instarctoion for admin
 
-Admin Id and password is here
+Please read this section if you are an admin or tester of this website.
+
+You will find add services section on the buttom of home page and if you want to add services 
+on this project you have to have this id and password just copy paste on the ui you will proceed.
+
+Thank you.
 
 ```bash
-    Admin Id : Jhankar Vai is Boss
-    Admin Pass : secretPassword1234
+    Admin Id :Jhankar Vai is Boss
+    Admin Pass :secretPassword1234
   
 ```
     
